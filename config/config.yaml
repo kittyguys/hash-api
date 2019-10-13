@@ -1,0 +1,12 @@
+mysql:
+  name: hash
+  user: root
+  password: ""
+  host: localhost
+twitter:
+  token: "uAjRHZgFIbldz2iuydiNZ9p7D"
+  secret: "yskjfqaewYbnJY9t3GDXA2l6qDXPhGltosca0hnKpDFcsOEjbp"
+  requesturi: "https://api.twitter.com/oauth/request_token"
+  authorizationuri: "https://api.twitter.com/oauth/authorize"
+  tokenrequesturi: "https://api.twitter.com/oauth/access_token"
+  callbackuri: "http://127.0.0.1:8080/auth/twitter/callback"
